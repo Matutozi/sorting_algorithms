@@ -1,4 +1,7 @@
 # 0x1B. C - Sorting algorithms & Big O
+
+
+### Contributors: Emmanuel Sobowale and [Queensly Oko](https://github.com/queenoko)
 ## Resources
 Read or watch:
 
