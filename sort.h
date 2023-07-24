@@ -4,13 +4,14 @@
 
 #include <stdio.h>
 #include <stddef.h>
+#include <stdlib.h>
 
 /**
  * struct listint_s - Doubly linked list node
  *
- * @n: Integer stored in the node
- * @prev: Pointer to the previous element of the list
- * @next: Pointer to the next element of the list
+ * @n: Integer stored in node
+ * @prev: Pointer to previous element of list
+ * @next: Pointer to next element of list
  */
 typedef struct listint_s
 {
@@ -27,5 +28,6 @@ void insertion_sort_list(listint_t **list);
 void quick_sort(int *array, size_t size);
 int partition(int *array, int lowr, int higr, size_t size);
 void quick_so(int *array, int lowr, int higr, size_t size);
+void shell_sort(int *array, size_t size);
 
 #endif /*_SORT_H */
