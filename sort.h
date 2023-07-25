@@ -29,5 +29,7 @@ int partition(int *array, int lowr, int higr, size_t size);
 void quick_so(int *array, int lowr, int higr, size_t size);
 void shell_sort(int *array, size_t size);
 void counting_sort(int *array, size_t size);
+void swap_root(int *array, size_t root, size_t higr, size_t size);
+void heap_sort(int *array, size_t size);
 
 #endif /*_SORT_H */
