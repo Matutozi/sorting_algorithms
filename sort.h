@@ -36,5 +36,7 @@ void swap_ch(int arr[], int item_1, int item_2, int order);
 void merge_ele(int arr[], int lowr, int ele_no, int order);
 void bitonicsort(int arr[], int lowr, int ele_no, int order, int size);
 void bitonic_sort(int *array, size_t size);
+void cocktail_sort_list(listint_t **list);
+listint_t *swap_node(listint_t *node, listint_t **list);
 
 #endif /*_SORT_H */
