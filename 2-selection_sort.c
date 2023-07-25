@@ -1,5 +1,5 @@
 #include "sort.h"
-#include <stddef.h>
+
 /**
  * selection_sort - sorts an array of integer data in ascending order
  * @array: data array
@@ -38,4 +38,4 @@ void selection_sort(int *array, size_t size)
 		}
 		index = 0;
 	}
-} 
+}
