@@ -42,6 +42,10 @@ void *_calloc(unsigned int ele_no, unsigned int size);
 void merge(int *arr, int *temp, int start, int mid, int end);
 void mergesort(int *array, int *temp, int start, int end);
 void merge_sort(int *array, size_t size);
+void swap_arr(int *array, ssize_t item1, ssize_t item2);
+int hoare_partition(int *array, int first, int last, int size);
+void quis(int *array, ssize_t first, ssize_t last, int size);
+void quick_sort_hoare(int *array, size_t size);
 
 
 #endif /*_SORT_H */
