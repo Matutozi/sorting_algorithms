@@ -31,5 +31,9 @@ void shell_sort(int *array, size_t size);
 void counting_sort(int *array, size_t size);
 void swap_root(int *array, size_t root, size_t higr, size_t size);
 void heap_sort(int *array, size_t size);
+void swap_ch(int arr[], int item_1, int item_2, int order);
+void merge_ele(int arr[], int lowr, int ele_no, int order);
+void bitonicsort(int arr[], int lowr, int ele_no, int order, int size);
+void bitonic_sort(int *array, size_t size);
 
 #endif /*_SORT_H */
