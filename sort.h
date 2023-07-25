@@ -46,6 +46,9 @@ void swap_arr(int *array, ssize_t item1, ssize_t item2);
 int hoare_partition(int *array, int first, int last, int size);
 void quis(int *array, ssize_t first, ssize_t last, int size);
 void quick_sort_hoare(int *array, size_t size);
+int getMax(int *arr, int n);
+void count_sort1(int *arr, size_t n, int exp, int *output);
+void radix_sort(int *array, size_t size);
 
 
 #endif /*_SORT_H */
